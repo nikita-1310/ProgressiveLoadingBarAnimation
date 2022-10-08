@@ -1,0 +1,39 @@
+body{
+    background-color: #053A3D;
+}
+div{
+    height: 25px;
+}
+h2{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 0px;
+    letter-spacing: 1px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    margin: auto;
+    border: 3px solid #54E6E7;
+    background-color: #AAC6C6;
+    transform: translate(-50%, -50%);
+
+}
+.progress{
+    /* width: 0%; */
+    background-color: #1A2929;
+    opacity: 0.8;
+    animation: progress 2s infinite alternate;
+}
+@keyframes progress {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
